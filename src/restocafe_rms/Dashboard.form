@@ -1,0 +1,2834 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1200, 750]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" pref="1252" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[1200, 750]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="sidepanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[250, 700]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="262" height="761"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                      <Component id="jLabel4" pref="82" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="username" min="-2" pref="211" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel4" max="32767" attributes="0"/>
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Logout" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel7" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator3" alignment="1" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel3" alignment="2" min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="2" min="-2" pref="73" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="username" min="-2" pref="37" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="jSeparator3" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="Logout" min="-2" pref="38" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="username">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icon/logoSmall.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e" green="e" red="32" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Script MT Bold" size="32" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="e" green="e" red="32" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="RestoCafe"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="Logout">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Logout"/>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LogoutActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Icon/MainProfileLogo.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="3d" green="3d" red="4b" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="GENERAL"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="dashboard" min="-2" pref="179" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="dashboard" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icon/ic_dashboard_white.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="dashboard">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1c" green="67" red="eb" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="DASHBOARD"/>
+                    <Property name="borderPainted" type="boolean" value="false"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Hand Cursor"/>
+                    </Property>
+                    <Property name="focusPainted" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalAlignment" type="int" value="2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboardActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="menu" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="menu" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icon/ic_test_reports_w.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="menu">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1c" green="67" red="eb" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="MENU"/>
+                    <Property name="borderPainted" type="boolean" value="false"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Hand Cursor"/>
+                    </Property>
+                    <Property name="focusPainted" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalAlignment" type="int" value="2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="menu1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="menu1" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icon/order icon.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="menu1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1c" green="67" red="eb" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="ORDER"/>
+                    <Property name="borderPainted" type="boolean" value="false"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Hand Cursor"/>
+                    </Property>
+                    <Property name="focusPainted" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalAlignment" type="int" value="2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menu1ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="menu2" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="menu2" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icon/table .png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="menu2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1c" green="67" red="eb" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="TABLE RESERVE"/>
+                    <Property name="borderPainted" type="boolean" value="false"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Hand Cursor"/>
+                    </Property>
+                    <Property name="focusPainted" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalAlignment" type="int" value="2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menu2ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="3d" green="3d" red="4b" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="86" green="86" red="8f" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="TOOLS"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="dashboard1" min="-2" pref="179" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="dashboard1" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icon/setting.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="dashboard1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1c" green="67" red="eb" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="SETTING"/>
+                    <Property name="borderPainted" type="boolean" value="false"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Hand Cursor"/>
+                    </Property>
+                    <Property name="focusPainted" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalAlignment" type="int" value="2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboard1ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel7">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="dashboard2" min="-2" pref="179" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="dashboard2" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel11">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/Icon/flag.png"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="dashboard2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="1c" green="67" red="eb" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="16" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="FEEDBACK"/>
+                    <Property name="borderPainted" type="boolean" value="false"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Hand Cursor"/>
+                    </Property>
+                    <Property name="focusPainted" type="boolean" value="false"/>
+                    <Property name="focusable" type="boolean" value="false"/>
+                    <Property name="horizontalAlignment" type="int" value="2"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dashboard2ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="262" y="-39" width="990" height="800"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="Dash">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="tab1">
+                    <Property name="tabTitle" type="java.lang.String" value="tab1"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+                <Property name="useNullLayout" type="boolean" value="false"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="Dashboard">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="DASHBOARD"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="35" y="42" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="35" y="80" width="857" height="10"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel8">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[260, 78]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="325" y="102" width="-1" height="120"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" pref="67" max="-2" attributes="0"/>
+                              <EmptySpace pref="62" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="totalincome" max="32767" attributes="0"/>
+                                  <Component id="jLabel13" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel14" min="-2" pref="51" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="totalincome" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="totalincome">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="16" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel13">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="16" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="86" green="86" red="8f" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Total Income"/>
+                        <Property name="toolTipText" type="java.lang.String" value=""/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel14">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Icon/income icon.png"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JSeparator" name="jSeparator7">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="35" y="240" width="857" height="10"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel9">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="35" y="102" width="-1" height="-1"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel17" min="-2" pref="67" max="-2" attributes="0"/>
+                              <EmptySpace pref="43" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="todayincome" max="32767" attributes="0"/>
+                                  <Component id="jLabel16" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="todayincome" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="48" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel17" min="-2" pref="51" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="todayincome">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="16" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel16">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="16" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="86" green="86" red="8f" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Today&apos;s Income"/>
+                        <Property name="toolTipText" type="java.lang.String" value=""/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel17">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Icon/income icon.png"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel11">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[260, 78]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="619" y="102" width="-1" height="120"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel20" min="-2" pref="67" max="-2" attributes="0"/>
+                              <EmptySpace pref="62" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="totalsales" max="32767" attributes="0"/>
+                                  <Component id="jLabel19" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="totalsales" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel20" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="totalsales">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="16" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel19">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="e" green="e" red="32" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="16" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="86" green="86" red="8f" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Sold Products"/>
+                        <Property name="toolTipText" type="java.lang.String" value=""/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel20">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/Icon/total order .png"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="panelHistory">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="33" red="33" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[420, 310]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="470" width="-1" height="210"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                </Container>
+                <Container class="javax.swing.JPanel" name="showBarChart">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="470" y="470" width="420" height="210"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                </Container>
+                <Container class="javax.swing.JPanel" name="panelBarChart1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="0" red="cc" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[420, 310]"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="40" y="260" width="-1" height="190"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                </Container>
+                <Container class="javax.swing.JPanel" name="panelLineChart">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="470" y="260" width="420" height="190"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="men">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="tab2">
+                    <Property name="tabTitle" type="java.lang.String" value="tab2"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Menu" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSeparator5" min="-2" pref="857" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" alignment="0" min="-2" pref="867" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="86" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                          <Component id="Menu" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="592" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JSeparator" name="jSeparator5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Menu">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="MENU"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanel10">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="1c" green="67" red="eb" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="19" pref="19" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jPanel20" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jPanel21" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jPanel17" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jPanel19" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jPanel24" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jPanel15" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jPanel16" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jPanel23" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jPanel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jPanel15" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jPanel16" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jPanel23" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jPanel19" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jPanel18" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="jPanel21" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jPanel17" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jPanel20" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="jPanel24" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="1165" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="jPanel12">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jSpinner3" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout3" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                                              <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel29" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel28" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel27" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel29" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout3" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner3" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel27">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Burger"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel28">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 10"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel29">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/burger.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner3">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout3">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout3ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel15">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner4" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout4" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                                              <Component id="jLabel31" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel32" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel31" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel30" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel32" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout4" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner4" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel30">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Pizza"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel31">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 20"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel32">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/pizza.png"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner4">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout4">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout4ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel16">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner5" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout5" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                                              <Component id="jLabel34" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel35" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel34" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel33" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel35" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout5" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner5" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel33">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Pasta"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel34">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 30"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel35">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/pasta.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner5">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout5">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout5ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel17">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner6" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout6" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel36" min="-2" pref="93" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                              <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel38" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel37" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel36" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel38" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout6" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner6" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel36">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="French Fry"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel37">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 40"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel38">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/french fry.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner6">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout6">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout6ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel18">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner7" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout7" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel39" min="-2" pref="106" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                              <Component id="jLabel40" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel41" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel40" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel39" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel41" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout7" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner7" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel39">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Fried Chicken"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel40">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 50"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel41">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/fried Chicken.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner7">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout7">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout7ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel19">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner8" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout8" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel42" min="-2" pref="100" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                              <Component id="jLabel43" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel44" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel43" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel42" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel44" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout8" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner8" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel42">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Cold Coffee"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel43">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 25"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel44">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/Cold Coffe.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner8">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout8">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout8ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel20">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner9" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout9" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel45" min="-2" pref="58" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                                              <Component id="jLabel46" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel47" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel46" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel45" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel47" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout9" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner9" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel45">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Water"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel46">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 5"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel47">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/Water.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner9">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout9">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout9ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel21">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner10" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout10" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel48" min="-2" pref="74" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                              <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel50" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel49" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel48" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel50" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout10" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner10" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel48">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Mojo"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel49">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 10"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel50">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/mojo.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner10">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout10">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout10ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel23">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner11" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout11" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel51" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                              <Component id="jLabel52" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel53" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel52" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel51" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel53" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout11" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner11" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel51">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Sandwich"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel52">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 75"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel53">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/sandwich.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner11">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout11">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout11ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="jPanel24">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="b3" green="f1" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                              <Dimension value="[240, 225]"/>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jSpinner12" min="-2" pref="94" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Logout12" min="-2" pref="91" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel54" min="-2" pref="112" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                              <Component id="jLabel55" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel56" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="jLabel55" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel54" alignment="2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jLabel56" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="2" attributes="0">
+                                          <Component id="Logout12" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="jSpinner12" alignment="2" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="jLabel54">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="Green Tea"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel55">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="5e" green="5d" red="69" type="rgb"/>
+                                </Property>
+                                <Property name="horizontalAlignment" type="int" value="4"/>
+                                <Property name="text" type="java.lang.String" value="TK: 35"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel56">
+                              <Properties>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Icon/green tea.jpg"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JSpinner" name="jSpinner12">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="16" style="0"/>
+                                </Property>
+                                <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                                  <SpinnerModel initial="0" maximum="100" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                                  <Border info="null"/>
+                                </Property>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JButton" name="Logout12">
+                              <Properties>
+                                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="1c" green="67" red="eb" type="rgb"/>
+                                </Property>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Segoe UI" size="14" style="1"/>
+                                </Property>
+                                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="ADD"/>
+                                <Property name="borderPainted" type="boolean" value="false"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Hand Cursor"/>
+                                </Property>
+                                <Property name="focusPainted" type="boolean" value="false"/>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Logout12ActionPerformed"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="ord">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="tab3">
+                    <Property name="tabTitle" type="java.lang.String" value="tab3"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Order" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSeparator6" pref="842" max="32767" attributes="0"/>
+                              <Component id="jPanel22" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jPanel13" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="111" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="Order" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jPanel13" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JSeparator" name="jSeparator6">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="Order">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Segoe UI" size="24" style="1"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="86" green="86" red="8f" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="ORDER"/>
+                  </Properties>
+                </Component>
+                <Container class="javax.swing.JPanel" name="jPanel22">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane3" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" pref="374" max="32767" attributes="0"/>
+                          <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTable" name="jTable1">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                              <Table columnCount="4" rowCount="0">
+                                <Column editable="true" title="Product ID" type="java.lang.Object"/>
+                                <Column editable="true" title="Item Name" type="java.lang.Object"/>
+                                <Column editable="true" title="Quantity" type="java.lang.Object"/>
+                                <Column editable="true" title="Price" type="java.lang.Object"/>
+                              </Table>
+                            </Property>
+                            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                              <TableColumnModel selectionModel="0">
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                  <Title/>
+                                  <Editor/>
+                                  <Renderer/>
+                                </Column>
+                              </TableColumnModel>
+                            </Property>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="rowHeight" type="int" value="25"/>
+                            <Property name="selectionBackground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="bb" green="bb" red="bb" type="rgb"/>
+                            </Property>
+                            <Property name="showHorizontalLines" type="boolean" value="true"/>
+                            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                              <TableHeader reorderingAllowed="false" resizingAllowed="true"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="b">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="rows" type="int" value="5"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel13">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="Order2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Order1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Order3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="pay" pref="189" max="32767" attributes="0"/>
+                                  <Component id="total" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="bal" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="payment" min="-2" pref="163" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" pref="163" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton4" min="-2" pref="163" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="Order1" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="total" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="Order2" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="pay" alignment="2" min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="2" attributes="0">
+                                  <Component id="Order3" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bal" alignment="2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="payment" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="jButton2" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="jButton4" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="110" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="payment">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="1c" green="67" red="eb" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="14" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Pay"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="borderPainted" type="boolean" value="false"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="focusPainted" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="paymentActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jButton2">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="14" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="1c" green="67" red="eb" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Delete"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                            <LineBorder>
+                              <Color PropertyName="color" blue="1c" green="67" red="eb" type="rgb"/>
+                            </LineBorder>
+                          </Border>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="focusPainted" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="pay">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="24" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4b" green="49" red="46" type="rgb"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Text Cursor"/>
+                        </Property>
+                        <Property name="doubleBuffered" type="boolean" value="true"/>
+                        <Property name="dragEnabled" type="boolean" value="true"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="payActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Order1">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="0" green="0" red="0" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="26" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4b" green="49" red="46" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="Total: "/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Order2">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="33" green="33" red="33" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="26" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4b" green="49" red="46" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="Amount:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="Order3">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="33" green="33" red="33" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="26" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4b" green="49" red="46" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="4"/>
+                        <Property name="text" type="java.lang.String" value="Change:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="total">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="33" green="33" red="33" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="26" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4b" green="49" red="46" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="2"/>
+                        <Property name="text" type="java.lang.String" value="00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="bal">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="33" green="33" red="33" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="26" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="4b" green="49" red="46" type="rgb"/>
+                        </Property>
+                        <Property name="horizontalAlignment" type="int" value="2"/>
+                        <Property name="text" type="java.lang.String" value="00"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jButton4">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="1c" green="67" red="eb" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Arial" size="14" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Receipt"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="borderPainted" type="boolean" value="false"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                        <Property name="focusPainted" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

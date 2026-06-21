@@ -1,0 +1,31 @@
+# Java / NetBeans build outputs
+build/
+dist/
+*.class
+
+# Keep project library JARs, ignore other generated JARs
+*.jar
+!lib/*.jar
+
+# NetBeans private user-specific files
+nbproject/private/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Local database/config files
+.env
+*.db
